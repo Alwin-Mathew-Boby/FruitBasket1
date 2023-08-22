@@ -96,10 +96,7 @@ class Game{
                      fruits.velocityY = 6;
                      var rand = Math.round(random(1,5));
                      switch(rand){
-                         case 1: fruits.addImage("fruit1",fruit1_img);
-                         break;
-                         case 2: fruits.addImage("fruit1", fruit2_img);
-                         break;
+                         
                          case 3: fruits.addImage("fruit1", fruit3_img);
                          break;
                          case 4: fruits.addImage("fruit1", fruit4_img);
